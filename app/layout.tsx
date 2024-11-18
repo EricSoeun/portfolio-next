@@ -1,8 +1,6 @@
 import "./globals.css";
-
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
-
 import { Header } from "@/components/Header";
 import { PageTransition } from "@/components/animation/PageTransition";
 import { StairTransition } from "@/components/animation/StairTransition";
@@ -25,14 +23,12 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
-            <body className={jetBrainsMono.variable}>
-                <Header />
-                <StairTransition />
-                <PageTransition>
-                    {children}
-                </PageTransition>
-            </body>
-        </html>
+      <html lang="en">
+        <body className={jetBrainsMono.variable}>
+          <Header />
+          <StairTransition />
+          <PageTransition>{children}</PageTransition>
+        </body>
+      </html>
     );
 }

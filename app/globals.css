@@ -2,9 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
+/* :root {
+  --font-larken: 'Larken', serif; 
+}
+@font-face {
+  font-family: 'Larken';
+  src: url('/fonts/Larken_Thin.otf') format('opentype');
+  font-weight: 100; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Larken';
+  src: url('/fonts/Larken_Light.otf') format('opentype');
+  font-weight: 300; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Larken';
+  src: url('/fonts/Larken_Regular.otf') format('opentype');
+  font-weight: 400; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Larken';
+  src: url('/fonts/Larken_Bold.otf') format('opentype');
+  font-weight: 700; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Larken';
+  src: url('/fonts/Larken_ExtraBold.otf') format('opentype');
+  font-weight: 800; 
+  font-style: normal;
+} */
+
+
 @layer base {
   body {
-    @apply font-primary bg-primary text-white leading-loose;
+    @apply font-primary text-white leading-loose;
+    font-family: var(--font-larken);
+    background: #f4f5ee;
+    color: #29261a;
   }
 
   h1 {

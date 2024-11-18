@@ -14,7 +14,7 @@ const Home = () => {
             <div className="container mx-auto h-full">
                 <div className="py-32 flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
                     <div className="text-center xl:text-left order-2 xl:order-none">
-                        <span>Frontend Developer</span>
+                        <span>Freelance Frontend Developer based in Paris</span>
                         <div className="my-6 flex flex-col gap-2">
                             <h3>Hello_World();</h3>
                             <h3>
@@ -22,7 +22,7 @@ const Home = () => {
                                 <span className="text-accent">"Eric Soeun"</span>;
                             </h3>
                         </div>
-                        <p className="max-w-[500px] mb-9 text-white/70 italic">&lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, quam!&lt;/p&gt;</p>
+                        <p className="max-w-[500px] mb-9 text-primary/70 italic">&lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, quam!&lt;/p&gt;</p>
                         <div className="flex flex-col xl:flex-row items-center gap-8">
                             <Button variant={"outline"} size={"lg"} className="uppercase flex items-center gap-2">
                                 <span>Download CV</span>

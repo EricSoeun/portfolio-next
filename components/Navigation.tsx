@@ -86,7 +86,7 @@ export const DesktopNav = () => {
                 <Link
                     key={item.name}
                     href={item.path}
-                    className={`${item.path === pathname && "text-accent border-b-2 border-accent"} font-medium capitalize hover:text-accent transition-all`}
+                    className={`${item.path === pathname && "text-accent border-b-2 border-accent"} font-thin capitalize hover:text-accent transition-all`}
                 >
                     {item.name}
                 </Link>

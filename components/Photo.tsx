@@ -19,7 +19,7 @@ export const Photo = () => {
                     animate={{ opacity: 1, transition: { delay: 2, duration: 0.4, ease: "easeIn" } }}
                 >
                     <Image
-                        src={"/Cat03.jpeg"}
+                        src={"/Eric2.png"}
                         // src={"/crabe.png"}
                         alt="avatar"
                         priority

@@ -17,10 +17,6 @@ const SOCIALS = [
         icon: <FaTwitter />,
         path: "/"
     },
-    {
-        icon: <FaInstagram />,
-        path: "/"
-    },
 ]
 
 interface SocialProps {
@@ -34,7 +30,7 @@ export const Social = ({className}: SocialProps) => {
                     href={item.path}
                     key={index}
                 >
-                    <Button variant={"iconOutline"} size={"icon"}>
+                    <Button variant={"primary"} size={"icon"}>
                         {item.icon}
                     </Button>
                 </Link>
