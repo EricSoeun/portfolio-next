@@ -15,16 +15,6 @@ const STAIR_ANIMATION = {
 export const Stairs = () => {
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      {/* Contenu visible */}
-      <div className="absolute inset-0 z-10">
-        <p className="text-center text-3xl font-bold mt-20">
-          Voici le contenu sous le volet
-        </p>
-        <p className="text-center mt-4">
-          Ce contenu sera progressivement occulté par le volet.
-        </p>
-      </div>
-
       {/* Volet animé */}
       <motion.div
         variants={STAIR_ANIMATION}
